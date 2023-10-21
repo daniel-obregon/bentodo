@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+ul::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+ul::-webkit-scrollbar:vertical {
+    width:0px;
+}
+
+ul::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+ul::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: #C78352;
+    border-radius: 20px;
+    
+}
+
+ul::-webkit-scrollbar-track {
+    border-radius: 10px;
+    
+}
+
+
+.off-main {
+    text-align: center;
+    padding: 50px;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image:
+    radial-gradient(circle at bottom, rgba(12, 79, 82, 1) -80%, rgba(12, 79, 82, 0) 50%);
+}
+
+.off-img {
+    background: transparent;
+    width: 300px;
+}
+
+.off-title {
+    margin: 20px 0;
+    font-size: 20px;
+    text-wrap: balance;
+    background: transparent;
+}
+
+.off-text {
+    background: transparent;
+}
